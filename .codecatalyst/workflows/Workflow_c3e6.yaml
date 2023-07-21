@@ -1,0 +1,9 @@
+Name: Workflow_c3e6
+SchemaVersion: "1.0"
+
+# Optional - Set automatic triggers.
+Triggers:
+  - Type: Push
+    Branches:
+      - stepRetry
+      - master
